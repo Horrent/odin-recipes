@@ -4,7 +4,7 @@ body {
     
 } 
 
-ul {
+.mainulli {
     text-align:center;
     font-weight: 1000;
     font-size: 50px;
@@ -16,7 +16,7 @@ ul {
 }
 
 /* Cake page */
-.center,
+
 #indexhead {
     text-align:center;
     font-weight: 1000;
@@ -25,11 +25,9 @@ ul {
     color: whitesmoke;
     font-style: italic;
 } 
-body {
-    background-image: url(./img/back.jpg);
-    
-}
+
 h1,
+#indexhead,
 h2 {
     font-weight: 900;
     background-color: brown;
@@ -41,9 +39,10 @@ h2 {
 .center{
     display: flex;
     justify-content: center;
+    
 }
 
-img {
+#cakejpg {
         height: auto;
         width: 480px;
 
@@ -62,4 +61,21 @@ img {
 .heading.font {
     font-style: oblique;
 
+}
+h3 {
+    font-weight: 900;
+    background-color: brown;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+
+.cakeul,
+.cakeol {
+    text-align:center;
+    font-weight: 600;
+    font-size: 50px;
+    background-color: rgb(107, 78, 55);
+    color: black;
+    font-style: italic;
 }
