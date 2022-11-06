@@ -15,7 +15,7 @@ body {
 
 }
 
-/* Cake page */
+/* Template for pages */
 
 #indexhead {
     text-align:center;
@@ -36,7 +36,7 @@ h2 {
     text-align: center;
 }
 
-.center{
+.center{ /*Recipe photo centered also universal for this project*/
     display: flex;
     justify-content: center;
     
@@ -78,4 +78,9 @@ h3 {
     background-color: rgb(107, 78, 55);
     color: black;
     font-style: italic;
+}
+.buttonindex {
+    font-size: 30px;
+    background-color: white;
+
 }
